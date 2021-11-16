@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> Grocery Table</title>
+        <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3,3,6/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="table-responsive">
+                <h1 id="gro">GROCERY TABLE</h1>
+                <br/>
+                <table  class="table table-bordered table-striped" id="gtable">
+                    <tr class="row">
+                        
+                        <th class="header">SERIALNO</th>
+                        <th class="header1">NAME</th>
+                        <th class="header2">QUANTITY</th>
+                        <th class="header3">UNIT</th>
+                        <th class="header4">DEPARTMENT</th>
+                        <th class="header5">NOTES</th>
+                    </tr>
+                </table>
+                </div>
+            </div>
+</body>
+</head>
+</html>
+<script>
+    $(document).ready(function(){
+        $.getJSON("Grocc.json",function(data){
+            var table_data='';
+            $.each(data,function(key,value){
+                table_data+='<tr class="son">';
+                    table_data+='<td clas="son1">'+value.SerialNo+'</td>';
+                        table_data+='<td class="son2">'+value.Name+'</td>';
+                            table_data+='<td class="son3">'+value.Quantity+'</td>';
+                                table_data+='<td class="son4">'+value.Unit+'</td>';
+                                    table_data+='<td class="son5">'+value.Department+'</td>';
+                                        table_data+='<td class="son6">'+value.Notes+'</td>';
+                                        table_data+='</tr>';
+        });
+                $('#gtable').append(table_data);
+        });
+        }); 
+</script>

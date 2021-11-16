@@ -1,0 +1,112 @@
+*{
+    
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-image:cover;
+}
+#gtable{
+    padding-left: "10px";
+    margin-left: "5px";
+    margin-top: "5px";
+    border-collapse: collapse;
+    border: 5px;
+    border-color: rgb(42, 165, 108);
+    padding-left: 50%;
+    padding-top: 10%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+#gtable{
+
+    width:70%; margin-left:15%; margin-right:15%;
+    margin-left: "auto";
+    background-color: #003d98;
+    color: #0f0f0f;
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #720bd3;
+    background-color: #6dc4984d;
+    border-bottom: 2px solid #004298;
+    border-top: 2px solid #004298;
+    border-left: 2px solid #004298;
+    border-right:2px solid #004298; 
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.header
+{ border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.header1
+{ border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.header2
+{ border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.header3
+{ border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.header4
+{ border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.header5
+{ border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.son{
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.son1{
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.son2{
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.son3{
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.son4{
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+.son5{
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    padding: 12px 15px;
+}
+#gro{
+    text-align:center ;
+    padding-left: 30px;
+    color:rgb(214, 9, 146);
+}
